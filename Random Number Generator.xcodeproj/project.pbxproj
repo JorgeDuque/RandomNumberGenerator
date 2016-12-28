@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83F70BB1E133E7400A556AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F70BA1E133E7400A556AE /* AppDelegate.swift */; };
+		D83F70BD1E133E7400A556AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F70BC1E133E7400A556AE /* ViewController.swift */; };
+		D83F70C01E133E7400A556AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83F70BE1E133E7400A556AE /* Main.storyboard */; };
+		D83F70C21E133E7400A556AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83F70C11E133E7400A556AE /* Assets.xcassets */; };
+		D83F70C51E133E7400A556AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83F70C31E133E7400A556AE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D83F70B71E133E7400A556AE /* Random Number Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Number Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83F70BA1E133E7400A556AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D83F70BC1E133E7400A556AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D83F70BF1E133E7400A556AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D83F70C11E133E7400A556AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83F70C41E133E7400A556AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D83F70C61E133E7400A556AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83F70B41E133E7400A556AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D83F70AE1E133E7300A556AE = {
+			isa = PBXGroup;
+			children = (
+				D83F70B91E133E7400A556AE /* Random Number Generator */,
+				D83F70B81E133E7400A556AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D83F70B81E133E7400A556AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83F70B71E133E7400A556AE /* Random Number Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83F70B91E133E7400A556AE /* Random Number Generator */ = {
+			isa = PBXGroup;
+			children = (
+				D83F70BA1E133E7400A556AE /* AppDelegate.swift */,
+				D83F70BC1E133E7400A556AE /* ViewController.swift */,
+				D83F70BE1E133E7400A556AE /* Main.storyboard */,
+				D83F70C11E133E7400A556AE /* Assets.xcassets */,
+				D83F70C31E133E7400A556AE /* LaunchScreen.storyboard */,
+				D83F70C61E133E7400A556AE /* Info.plist */,
+			);
+			path = "Random Number Generator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83F70B61E133E7400A556AE /* Random Number Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83F70C91E133E7400A556AE /* Build configuration list for PBXNativeTarget "Random Number Generator" */;
+			buildPhases = (
+				D83F70B31E133E7400A556AE /* Sources */,
+				D83F70B41E133E7400A556AE /* Frameworks */,
+				D83F70B51E133E7400A556AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Random Number Generator";
+			productName = "Random Number Generator";
+			productReference = D83F70B71E133E7400A556AE /* Random Number Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D83F70AF1E133E7300A556AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jorgeduque;
+				TargetAttributes = {
+					D83F70B61E133E7400A556AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GE4U8E8D5E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D83F70B21E133E7300A556AE /* Build configuration list for PBXProject "Random Number Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D83F70AE1E133E7300A556AE;
+			productRefGroup = D83F70B81E133E7400A556AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83F70B61E133E7400A556AE /* Random Number Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D83F70B51E133E7400A556AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83F70C51E133E7400A556AE /* LaunchScreen.storyboard in Resources */,
+				D83F70C21E133E7400A556AE /* Assets.xcassets in Resources */,
+				D83F70C01E133E7400A556AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83F70B31E133E7400A556AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83F70BD1E133E7400A556AE /* ViewController.swift in Sources */,
+				D83F70BB1E133E7400A556AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D83F70BE1E133E7400A556AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83F70BF1E133E7400A556AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D83F70C31E133E7400A556AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83F70C41E133E7400A556AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D83F70C71E133E7400A556AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83F70C81E133E7400A556AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83F70CA1E133E7400A556AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GE4U8E8D5E;
+				INFOPLIST_FILE = "Random Number Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgeduque.Random-Number-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D83F70CB1E133E7400A556AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GE4U8E8D5E;
+				INFOPLIST_FILE = "Random Number Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgeduque.Random-Number-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83F70B21E133E7300A556AE /* Build configuration list for PBXProject "Random Number Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83F70C71E133E7400A556AE /* Debug */,
+				D83F70C81E133E7400A556AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83F70C91E133E7400A556AE /* Build configuration list for PBXNativeTarget "Random Number Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83F70CA1E133E7400A556AE /* Debug */,
+				D83F70CB1E133E7400A556AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D83F70AF1E133E7300A556AE /* Project object */;
+}
